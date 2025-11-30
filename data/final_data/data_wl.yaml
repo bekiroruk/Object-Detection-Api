@@ -1,0 +1,11 @@
+train: C:/Users/Bekir/Desktop/object-detection-api/data/final_data/train/images
+val: C:/Users/Bekir/Desktop/object-detection-api/data/final_data/valid/images
+test: C:/Users/Bekir/Desktop/object-detection-api/data/final_data/test/images
+
+nc: 4
+
+names:
+  0: buffalo
+  1: elephant
+  2: rhino
+  3: zebra

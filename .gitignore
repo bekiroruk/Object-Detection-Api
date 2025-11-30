@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+data/final_data/train/
+data/final_data/valid/
+data/final_data/test/
+
+models/wildlife_yolo22/weights/
+
+*.pt
