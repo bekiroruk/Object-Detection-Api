@@ -166,25 +166,28 @@ Body: ```file``` (image, e.g. ```.jpg```, ```.png```)
 ---
 
 ## 🧪 Local Development (without Docker)
-1. Create and activate a virtual environment
+**1. Create and activate a virtual environment**
+```text
 python -m venv venv
-# Windows
+###### Windows
 venv\Scripts\activate
-# Linux / macOS
+##### Linux / macOS
 source venv/bin/activate
-
-2. Install dependencies
+```
+**2. Install dependencies**
+```text
 pip install -r requirements.txt
-
-3. Start the FastAPI server
+```
+**3. Start the FastAPI server**
+```text
 uvicorn app.main:app --reload
-
+```
 
 The API will be available at:
 
-http://localhost:8000/ – health-check
+```http://localhost:8000/``` – health-check
 
-http://localhost:8000/docs – Swagger UI
+```http://localhost:8000/docs``` – Swagger UI
 
 ---
 
