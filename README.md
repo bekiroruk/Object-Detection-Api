@@ -63,7 +63,6 @@ yolo detect train \
   project=models \
   name=wildlife_yolo22
 
-
 After training, the best model weights are saved under:
 
 models/wildlife_yolo22/weights/best.pt
