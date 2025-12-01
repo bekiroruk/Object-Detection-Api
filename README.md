@@ -47,6 +47,7 @@ Dataset images/labels and model weights (*.pt) are not tracked by Git (ignored v
 
 You can plug in your own YOLOv8 model and dataset by adjusting paths in data_wl.yaml and app/main.py.
 
+---
 
 ## 🧠 Model Training (YOLOv8)
 
