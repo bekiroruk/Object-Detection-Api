@@ -42,13 +42,13 @@ Given an input image, the API returns the detected objects with their class labe
 └── README.md
 
 ```
-
+**
 Note:
 
 Dataset images/labels and model weights (*.pt) are not tracked by Git (ignored via .gitignore).
 
 You can plug in your own YOLOv8 model and dataset by adjusting paths in data_wl.yaml and app/main.py.
-
+**
 ---
 
 ## 🧠 Model Training (YOLOv8)
@@ -75,7 +75,7 @@ After training, the best model weights are saved under:
 
 These weights are then loaded by the FastAPI application.
 
-Example Dataset Config ```monospace (data_wl.yaml) ```
+Example Dataset Config `monospace (data_wl.yaml) `
 
 ```text
 train: path/to/train/images
