@@ -76,6 +76,8 @@ After training, the best model weights are saved under:
 These weights are then loaded by the FastAPI application.
 
 Example Dataset Config ```monospace (data_wl.yaml) ```
+
+```text
 train: path/to/train/images
 val: path/to/valid/images
 test: path/to/test/images
@@ -87,7 +89,7 @@ names:
   1: elephant
   2: rhino
   3: zebra
-
+```
 
 
 You can replace paths and class names to adapt the project to a different dataset.
