@@ -22,6 +22,8 @@ Given an input image, the API returns the detected objects with their class labe
 
 ## 🧱 Project Structure
 
+```text
+
 .
 ├── app/
 │   └── main.py                  # FastAPI application (loads YOLO model and exposes endpoints)
@@ -39,6 +41,7 @@ Given an input image, the API returns the detected objects with their class labe
 ├── .gitignore
 └── README.md
 
+```
 
 Note:
 
