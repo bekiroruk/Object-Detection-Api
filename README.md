@@ -192,17 +192,19 @@ The API will be available at:
 ---
 
 ## 🐳 Docker Deployment
-1. Build the Docker image
+**1. Build the Docker image**
+```text
 docker build -t object-detection-api .
-
-2. Run the container
+```
+**2. Run the container**
+```text
 docker run -p 8000:8000 object-detection-api
-
+```
 
 Now the API is accessible at:
 
-http://localhost:8000/
+```http://localhost:8000/```
 
-http://localhost:8000/docs
+```http://localhost:8000/docs```
 
-You can upload images via /docs → POST /detect.
+You can upload images via ```/docs``` → ```POST /detect```.
