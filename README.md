@@ -55,6 +55,7 @@ You can plug in your own YOLOv8 model and dataset by adjusting paths in data_wl.
 
 
 The model is trained using Ultralytics YOLOv8.
+```text
 An example training command:
 
 yolo detect train \
@@ -64,7 +65,7 @@ yolo detect train \
   imgsz=640 \
   project=models \
   name=wildlife_yolo22
-
+```
 
 After training, the best model weights are saved under:
 
