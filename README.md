@@ -118,22 +118,24 @@ Simple health-check endpoint:
 ```text
 {
   "message": "Object Detection API is running!"
-}```
+}
+```
 
-POST /detect
+```POST /detect```
 
-Accepts an image file (multipart/form-data) and returns detection results:
+Accepts an image file (```multipart/form-data```) and returns detection results:
 
-Request:
+**Request:**
 
-Method: POST
+Method: ```POST```
 
-URL: /detect
+URL: ```/detect```
 
-Body: file (image, e.g. .jpg, .png)
+Body: ```file``` (image, e.g. ```.jpg```, ```.png```)
 
-Response (example):
+**Response (example):**
 
+```text
 {
   "filename": "example.jpg",
   "num_detections": 2,
@@ -160,7 +162,7 @@ Response (example):
     }
   ]
 }
-
+```
 ---
 
 ## 🧪 Local Development (without Docker)
