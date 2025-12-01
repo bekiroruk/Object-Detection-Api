@@ -50,7 +50,7 @@ You can plug in your own YOLOv8 model and dataset by adjusting paths in data_wl.
 
 
 
-## 🧠 Model Training (YOLOv8)
+## 🧠 Model Training (YOLOv8) ## 
 
 
 The model is trained using Ultralytics YOLOv8.
