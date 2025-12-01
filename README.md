@@ -75,7 +75,7 @@ After training, the best model weights are saved under:
 
 These weights are then loaded by the FastAPI application.
 
-Example Dataset Config `monospace (data_wl.yaml) `
+**Example Dataset Config** `monospace (data_wl.yaml) `
 
 ```text
 train: path/to/train/images
@@ -98,8 +98,9 @@ You can replace paths and class names to adapt the project to a different datase
 
 ## 🌐 FastAPI Application
 
-The core API logic lives in app/main.py.
+The core API logic lives in ```app/main.py.```
 
+```text
 Model Loading (example)
 from ultralytics import YOLO
 from pathlib import Path
@@ -108,15 +109,16 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 MODEL_PATH = BASE_DIR / "models" / "wildlife_yolo22" / "weights" / "best.pt"
 
 model = YOLO(str(MODEL_PATH))
+```
 
-Endpoints
-GET /
+**Endpoints**
+```GET /```
 
 Simple health-check endpoint:
-
+```text
 {
   "message": "Object Detection API is running!"
-}
+}```
 
 POST /detect
 
