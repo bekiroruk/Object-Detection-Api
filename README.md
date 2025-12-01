@@ -42,19 +42,19 @@ Given an input image, the API returns the detected objects with their class labe
 └── README.md
 
 ```
-**
-Note:
 
-Dataset images/labels and model weights (*.pt) are not tracked by Git (ignored via .gitignore).
+**Note:**
 
-You can plug in your own YOLOv8 model and dataset by adjusting paths in data_wl.yaml and app/main.py.
-**
+**Dataset images/labels and model weights (*.pt) are not tracked by Git (ignored via .gitignore).**
+
+**You can plug in your own YOLOv8 model and dataset by adjusting paths in data_wl.yaml and app/main.py.**
+
 ---
 
 ## 🧠 Model Training (YOLOv8)
 
 
-The model is trained using Ultralytics YOLOv8.
+The model is trained using **Ultralytics YOLOv8.**
 
 An example training command:
 ```text
