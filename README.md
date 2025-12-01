@@ -62,9 +62,11 @@ yolo detect train \
   project=models \
   name=wildlife_yolo22
 
+
 After training, the best model weights are saved under:
 
 models/wildlife_yolo22/weights/best.pt
+
 
 
 These weights are then loaded by the FastAPI application.
@@ -83,7 +85,10 @@ names:
   3: zebra
 
 
+
 You can replace paths and class names to adapt the project to a different dataset.
+
+---
 
 ## 🌐 FastAPI Application
 
@@ -148,6 +153,8 @@ Response (example):
   ]
 }
 
+---
+
 ## 🧪 Local Development (without Docker)
 1. Create and activate a virtual environment
 python -m venv venv
@@ -168,6 +175,8 @@ The API will be available at:
 http://localhost:8000/ – health-check
 
 http://localhost:8000/docs – Swagger UI
+
+---
 
 ## 🐳 Docker Deployment
 1. Build the Docker image
